@@ -1,7 +1,7 @@
 const { readFileSync } = require("fs");
 const express = require("express");
 const app = express();
-const { DISPLAY_SERVER_PORT: port } = process.env;
+const port = process.env.PORT;
 
 const { Configuration, OpenAIApi } = require("openai");
 
