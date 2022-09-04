@@ -1,23 +1,23 @@
 {
-   "date": "2022-09-04 16:09",
-   "blockcount": 752593,
+   "date": "2022-09-04 19:39",
+   "blockcount": 752618,
    "rate1": {
-      "rate": 19735.6,
-      "moscow": 5066,
+      "rate": 19822.9,
+      "moscow": 5044,
       "code": "USD"
    },
    "rate2": {
-      "rate": 19827.9,
-      "moscow": 5043,
+      "rate": 19916.2,
+      "moscow": 5021,
       "code": "EUR"
    },
    "quote": {
-      "body": "Isn’t it ironic that Bitcoin has taught me more about money than all these years I’ve spent working for financial institutions?",
-      "paywall_link": "https://paywall.link/to/acb6f",
-      "date": "2018-12-12",
+      "body": "It might even be helpful to think of the parameters of Bitcoin as being similar to the rotation of the earth, sun, moon, or stars, forces outside of our control which are to be lived, not altered.",
+      "paywall_link": "https://paywall.link/to/d3e49",
+      "date": "2018-04-01",
       "author": {
-         "name": "Aaron Taycc",
-         "twitter": "https://twitter.com/fiatminimalist"
+         "name": "Saifedean Ammous",
+         "twitter": "https://twitter.com/saifedean"
       }
    }
 }

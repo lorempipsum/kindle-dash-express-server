@@ -14,7 +14,7 @@ cd $dir
 cd $dir/public
 
 echo "running firefox"
-firefox --headless --screenshot http://localhost:$DISPLAY_SERVER_PORT --window-size=758,1024
+firefox --headless --screenshot https://kindlethings-express-app.herokuapp.com/ --window-size=758,1024
 echo "running pngcrush"
 pngcrush -c 0 screenshot.png display.png
 echo "done doing the screenshot"
