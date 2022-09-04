@@ -1,0 +1,23 @@
+{
+   "date": "2022-09-04 16:09",
+   "blockcount": 752593,
+   "rate1": {
+      "rate": 19735.6,
+      "moscow": 5066,
+      "code": "USD"
+   },
+   "rate2": {
+      "rate": 19827.9,
+      "moscow": 5043,
+      "code": "EUR"
+   },
+   "quote": {
+      "body": "Isn’t it ironic that Bitcoin has taught me more about money than all these years I’ve spent working for financial institutions?",
+      "paywall_link": "https://paywall.link/to/acb6f",
+      "date": "2018-12-12",
+      "author": {
+         "name": "Aaron Taycc",
+         "twitter": "https://twitter.com/fiatminimalist"
+      }
+   }
+}
