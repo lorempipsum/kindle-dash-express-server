@@ -12,7 +12,7 @@ jobs:
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@v0.0.0
       - name: install dependencies
-        run: apt-get install -y pngcrush jo jq
+        run: sudo apt-get install -y pngcrush jo jq
       - name: test running the cron.sh script
         run: ./cron.sh
       - name: Git Auto Commit
