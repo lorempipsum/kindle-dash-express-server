@@ -1,23 +1,23 @@
 {
-   "date": "2022-09-04 18:49",
+   "date": "2022-09-04 18:50",
    "blockcount": 752619,
    "rate1": {
-      "rate": 19825.5,
-      "moscow": 5044,
+      "rate": 19839.6,
+      "moscow": 5040,
       "code": "USD"
    },
    "rate2": {
-      "rate": 19922.4,
-      "moscow": 5019,
+      "rate": 19932.7,
+      "moscow": 5016,
       "code": "EUR"
    },
    "quote": {
-      "body": "Those that attempt to copy bitcoin signal a failure to understand the properties that make bitcoin valuable or viable as money.",
-      "paywall_link": "https://paywall.link/to/8912c",
-      "date": "2019-08-02",
+      "body": "I do not think it is an exaggeration to say history is largely a history of inflation, and usually of inflations engineered by governments for the gain of governments.",
+      "paywall_link": "https://paywall.link/to/4709d",
+      "date": "1999-01-01",
       "author": {
-         "name": "Parker Lewis",
-         "twitter": "https://twitter.com/parkeralewis"
+         "name": "Friedrich Hayek",
+         "twitter": "https://en.wikipedia.org/wiki/Friedrich_Hayek"
       }
    }
 }
