@@ -1,23 +1,23 @@
 {
-   "date": "2022-09-04 19:39",
-   "blockcount": 752618,
+   "date": "2022-09-04 18:49",
+   "blockcount": 752619,
    "rate1": {
-      "rate": 19822.9,
+      "rate": 19825.5,
       "moscow": 5044,
       "code": "USD"
    },
    "rate2": {
-      "rate": 19916.2,
-      "moscow": 5021,
+      "rate": 19922.4,
+      "moscow": 5019,
       "code": "EUR"
    },
    "quote": {
-      "body": "It might even be helpful to think of the parameters of Bitcoin as being similar to the rotation of the earth, sun, moon, or stars, forces outside of our control which are to be lived, not altered.",
-      "paywall_link": "https://paywall.link/to/d3e49",
-      "date": "2018-04-01",
+      "body": "Those that attempt to copy bitcoin signal a failure to understand the properties that make bitcoin valuable or viable as money.",
+      "paywall_link": "https://paywall.link/to/8912c",
+      "date": "2019-08-02",
       "author": {
-         "name": "Saifedean Ammous",
-         "twitter": "https://twitter.com/saifedean"
+         "name": "Parker Lewis",
+         "twitter": "https://twitter.com/parkeralewis"
       }
    }
 }
