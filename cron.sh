@@ -8,13 +8,12 @@ source $envFile
 
 # generate data
 cd $dir
-./data.sh
 
 # create screenshot
 cd $dir/public
 
 echo "running firefox"
-firefox --headless --screenshot https://kindlethings-express-app.herokuapp.com/ --window-size=758,1024
+firefox --headless --screenshot https://kindlethings-express-app.herokuapp.com --window-size=1024,758
 echo "running pngcrush"
 pngcrush -c 0 screenshot.png display.png
 echo "done doing the screenshot"

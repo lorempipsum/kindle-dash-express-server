@@ -1,7 +1,7 @@
 const { readFileSync } = require("fs");
 const express = require("express");
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3030;
 
 const { Configuration, OpenAIApi } = require("openai");
 
@@ -67,8 +67,7 @@ app.get("/", async (req, res) => {
   try {
     const openAIText = await getOpenAiResponse();
     console.log(openAIText.data.choices[0].text);
-    let data = JSON.parse(readFileSync("data.json", "utf8"));
-    data = { ...data, quote: { body: openAIText.data.choices[0].text } };
+    data = { quote: { body: openAIText.data.choices[0].text } };
     res.render("index", { ...data, currency });
   } catch (err) {
     res.status(500).send("Could not open or parse data.json");
