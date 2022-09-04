@@ -1,23 +1,23 @@
 {
-   "date": "2022-09-04 16:09",
-   "blockcount": 752593,
+   "date": "2022-09-04 18:49",
+   "blockcount": 752619,
    "rate1": {
-      "rate": 19735.6,
-      "moscow": 5066,
+      "rate": 19825.5,
+      "moscow": 5044,
       "code": "USD"
    },
    "rate2": {
-      "rate": 19827.9,
-      "moscow": 5043,
+      "rate": 19922.4,
+      "moscow": 5019,
       "code": "EUR"
    },
    "quote": {
-      "body": "Isn’t it ironic that Bitcoin has taught me more about money than all these years I’ve spent working for financial institutions?",
-      "paywall_link": "https://paywall.link/to/acb6f",
-      "date": "2018-12-12",
+      "body": "Those that attempt to copy bitcoin signal a failure to understand the properties that make bitcoin valuable or viable as money.",
+      "paywall_link": "https://paywall.link/to/8912c",
+      "date": "2019-08-02",
       "author": {
-         "name": "Aaron Taycc",
-         "twitter": "https://twitter.com/fiatminimalist"
+         "name": "Parker Lewis",
+         "twitter": "https://twitter.com/parkeralewis"
       }
    }
 }

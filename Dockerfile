@@ -11,7 +11,7 @@ RUN apt-get update
 RUN apt-get install -y firefox-esr pngcrush jo jq torsocks curl cron
 COPY --from=builder /build .
 ADD .env.sample .env
-RUN echo "PATH=/bin:/usr/bin:/usr/local/bin\n* * * * * root /bin/bash /build/cron.sh > /build/cron.log\n#" | crontab -
+RUN echo "PATH=/bin:/usr/bin:/usr/local/bin\n19 20,16,14,8 * * * root /bin/bash /build/cron.sh > /build/cron.log\n#" | crontab -
 RUN service cron start
 EXPOSE 3030
 CMD ["npm", "start"]
