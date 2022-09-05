@@ -4,6 +4,10 @@ on:
   schedule:
     # Runs "at minute 55 past every hour" (see https://crontab.guru)
     - cron: '50 * * * *'
+  ## also run on push events
+  push:
+    branches:
+      - master
 
 jobs:
   Explore-GitHub-Actions:
