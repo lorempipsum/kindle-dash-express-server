@@ -19,7 +19,7 @@ body {
   position: relative;
   height: var(--canvas-height);
   width: var(--canvas-width);
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
 }
 
 .info {
@@ -34,14 +34,14 @@ body {
 
 .bg {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: var(--canvas-height);
   width: var(--canvas-width);
   background-size: contain;
-  background-position: 50%;
-  transform: scale(1.75);
-  opacity: .25;
+  background-position: 50% -120px;
+  transform: scale(0.5);
+
 }
 
 .bg,
@@ -110,12 +110,13 @@ h3 {
 blockquote {
   position: fixed;
   margin: auto;
-  bottom: 40%;
+  bottom: 12%;
   left: var(--canvas-padding);
   right: var(--canvas-padding);
   justify-content: center;
-  line-height: 1.33;
-  font-size: 1.5rem;
+  line-height: 1.1;
+  font-size: 1.1rem;
+  color: #fff;
 }
 
 .author {
